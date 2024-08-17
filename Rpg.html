@@ -9,7 +9,6 @@
     <link rel="icon" type="image/x-icon" href="C:\Users\Desktop\Downloads\WhatsApp Image 2024-08-15 at 18.15.19.jpeg">
     
     <style>
-       
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -18,7 +17,6 @@
         }
 
         header {
-            
             width: 100%;
             text-align: center;
         }
@@ -63,12 +61,29 @@
             bottom: 0;
             width: 100%;
         }
+
+        /* Estilo para imagem e texto alinhados à esquerda */
+        .content {
+            display: flex;
+            align-items: flex-start;
+            max-width: 800px;
+            margin: 10px 0 10px 10px; /* Alinha o conteúdo à esquerda com uma margem */
+        }
+
+        .content img {
+            max-width: 300px; /* Defina o tamanho máximo da imagem */
+            margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+        }
+
+        .content p {
+            text-align: justify; /* Deixa o texto justificado */
+            font-size: 18px; /* Aumenta o tamanho da fonte do parágrafo */
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <!-- Substituindo o banner anterior pelo GIF animado -->
         <img class="banner" src="C:\Users\Desktop\Downloads\diy creepy Halloween frames (1).jpeg" alt="Banner Animado">
     </header>
 
@@ -83,8 +98,15 @@
     </nav>
 
     <main>
-        <h2>Narrativa Inicial</h2>
-        <p>....</p>
+        <h2>O Despertar do Patrono</h2>
+        <div class="content">
+            <img src="C:\Users\Desktop\Downloads\WhatsApp Image 2024-08-15 at 18.15.19.jpeg" alt="Imagem relacionada">
+            <p>
+                No ano de 450, quando a humanidade estava em sua formação, uma grande estrutura surgiu diante dos 4 grandes reinos da humanidade, sem saber de onde veio tal construção.
+                Os reis de cada reino tomados pela curiosidade decidiram mandar seus melhores pesquisadores explorarem a estrutura.
+                O que vos espera lá? Que segredos a grande estrutura guarda? É isso que vocês irão descobrir logo... logo... assim como uma vez escrito.
+            </p>
+        </div>
     </main>
 
     <footer>
@@ -92,14 +114,13 @@
     </footer>
 
     <script>
-        // JavaScript para rolagem automática suave
         window.onload = function() {
             setTimeout(function() {
                 window.scrollTo({
                     top: document.body.scrollHeight,
                     behavior: 'smooth'
                 });
-            }, 1000); // Ajuste o tempo de espera antes de iniciar a rolagem (em milissegundos)
+            }, 1000);
         };
     </script>
 

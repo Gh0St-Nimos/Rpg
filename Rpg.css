@@ -1,1 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Ativa a rolagem suave */
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header .banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #080808;
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para imagem e texto alinhados à esquerda */
+.content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 10px 0 10px 10px; /* Alinha o conteúdo à esquerda com uma margem */
+}
+
+.content img {
+    max-width: 300px; /* Defina o tamanho máximo da imagem */
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.content p {
+    text-align: justify; /* Deixa o texto justificado */
+    font-size: 18px; /* Aumenta o tamanho da fonte do parágrafo */
+}
 
